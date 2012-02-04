@@ -1,0 +1,55 @@
+From 90d3207f8c6d4d102bbb491c520873ffb8d4a3e3 Mon Sep 17 00:00:00 2001
+From: Jari Aalto <jari.aalto@cante.net>
+Date: Sat, 4 Feb 2012 10:15:49 +0200
+Subject: [PATCH] scripts/checkbashisms.1: remove Debian specifics
+Organization: Private
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Signed-off-by: Jari Aalto <jari.aalto@cante.net>
+---
+ scripts/checkbashisms.1 |   12 +++++-------
+ 1 files changed, 5 insertions(+), 7 deletions(-)
+
+diff --git a/scripts/checkbashisms.1 b/scripts/checkbashisms.1
+index a835d3d..c5bf645 100644
+--- a/scripts/checkbashisms.1
++++ b/scripts/checkbashisms.1
+@@ -6,8 +6,7 @@ checkbashisms \- check for bashisms in /bin/sh scripts
+ .br
+ \fBcheckbashisms \-\-help\fR|\fB\-\-version\fR
+ .SH DESCRIPTION
+-\fBcheckbashisms\fR, based on one of the checks from the \fBlintian\fR
+-system, performs basic checks on \fI/bin/sh\fR shell scripts for the
++\fBcheckbashisms\fR performs basic checks on \fI/bin/sh\fR shell scripts for the
+ possible presence of bashisms.  It takes the names of the shell
+ scripts on the command line, and outputs warnings if possible bashisms
+ are detected.
+@@ -17,8 +16,8 @@ to "a shell feature that is not required to be supported by POSIX"; this
+ means that some issues flagged may be permitted under optional sections
+ of POSIX, such as XSI or User Portability.
+ .PP
+-In cases where POSIX and Debian Policy disagree, \fBcheckbashisms\fR by
+-default allows extensions permitted by Policy but may also provide
++Compared to strict POSIX, \fBcheckbashisms\fR by
++default allows few exceptions (like use of 'local') but may also provide
+ options for stricter checking.
+ .SH OPTIONS
+ .TP
+@@ -26,11 +25,10 @@ options for stricter checking.
+ Show a summary of options.
+ .TP
+ .BR \-\-newline ", " \-n
+-Check for "\fBecho \-n\fR" usage (non POSIX but required by Debian Policy 10.4.)
++Check for "\fBecho \-n\fR" usage (non POSIX).
+ .TP
+ .BR \-\-posix ", " \-p
+-Check for issues which are non POSIX but required to be supported by Debian
+-Policy 10.4 (implies \fB\-n\fR).
++Check for strict POSIX (implies \fB\-n\fR).
+ .TP
+ .BR \-\-force ", " \-f
+ Force each script to be checked, even if it would normally not be (for
+-- 
+1.7.5.1
+

@@ -1,0 +1,10 @@
+sdesc: "Check for bashisms in /bin/sh scripts"
+ldesc: "Perform basic checks on /bin/sh shell scripts for the possible
+presence of bashisms. It takes the names of the shell scripts on the
+command line, and outputs warnings if possible bashisms are detected.
+Note that the definition of a bashism in this context roughly equates
+to 'a shell feature that is not required to be supported by POSIX';
+this means that some issues flagged may be permitted under optional
+sections of POSIX, such as XSI or User Portability."
+category: Perl Utils
+requires: perl

@@ -1,0 +1,67 @@
+checkbashisms
+------------------------------------------
+
+Check for bashisms in /bin/sh scripts
+
+Perform basic checks on /bin/sh shell scripts for the possible
+presence of bashisms. It takes the names of the shell scripts on the
+command line, and outputs warnings if possible bashisms are detected.
+Note that the definition of a bashism in this context roughly equates
+to 'a shell feature that is not required to be supported by POSIX';
+this means that some issues flagged may be permitted under optional
+sections of POSIX, such as XSI or User Portability.
+
+Runtime requirements:
+  perl
+
+Build requirements:
+  cygwin
+
+Canonical homepage:
+  http://packages.debian.org/devscripts
+
+Canonical download:
+  See above
+
+Version control repository:
+   git://anonscm.debian.org/devscripts/devscripts.git
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Maintainer: Debian Devscripts Devel Team <pkg-devscripts@teams.debian.net>
+  Bugs: http://bugs.debian.org/devscripts
+
+License:
+  GPL
+
+Language:
+  Perl
+
+------------------------------------------
+
+Build instructions:
+  unpack checkbashisms-*-src.tar.bz2
+    if you use setup to install this source package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./checkbashisms*.sh all
+
+------------------------------------------
+
+Files included in the binary distribution:
+  See Cygwin package archive
+
+------------------------------------------
+
+Port Notes:
+
+----- version 2.11.3-1 -----
+- Initial release 2012-02-04 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2012 Jari Aalto; Licensed under GPL v2 or later
