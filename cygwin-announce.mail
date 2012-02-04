@@ -5,7 +5,7 @@ Subject: Updated: checkbashisms 2.11.3-1 -- Check for bashisms in /bin/sh script
 PACKAGE DESCRIPTION
 ===================
 
-Homepage:
+Homepage: Utility collection project http://packages.debian.org/devscripts
 License : GPL
 
 Perform basic checks on /bin/sh shell scripts for the possible
