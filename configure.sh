@@ -7,6 +7,6 @@
 PATH="/sbin:/usr/sbin/:/bin:/usr/bin"
 LC_ALL="C"
 
-echo ">> Nothing to configure (shell script)"
+echo ">> Nothing to configure"
 
 # End of file

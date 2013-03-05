@@ -1,2 +1,3 @@
 $DOC/examples -rf
 $DOC/README.newscripts
+$DOC/README.mk-build-deps

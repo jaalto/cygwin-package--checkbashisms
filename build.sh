@@ -14,6 +14,6 @@
 PATH="/sbin:/usr/sbin/:/bin:/usr/bin"
 LC_ALL="C"
 
-echo ">> Nothing to build (shell script)"
+echo ">> Nothing to build"
 
 # End of file
