@@ -1,2 +1,2 @@
 tag1: checkbashisms
-  http://packages.debian.org/unstable/devscripts pregexp:tar.gz file:devscripts_2.11.3.tar.gz new: x:
+  http://packages.debian.org/unstable/devscripts pregexp:tar.xz file:devscripts_2.11.3.tar.xz new: x:
