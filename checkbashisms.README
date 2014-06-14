@@ -15,7 +15,7 @@ Runtime requirements:
   perl
 
 Build requirements:
-  cygwin
+  quilt
 
 Canonical homepage:
   http://packages.debian.org/devscripts
@@ -59,6 +59,9 @@ Files included in the binary distribution:
 ------------------------------------------
 
 Port Notes:
+
+----- version 2.14.5-1 -----
+- New upstream release 2014-06-14 Jari Aalto
 
 ----- version 2.14.1-1 -----
 - New upstream release 2014-04-09 Jari Aalto
