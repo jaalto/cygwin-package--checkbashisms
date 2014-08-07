@@ -19,8 +19,8 @@ sections of POSIX, such as XSI or User Portability.
 CHANGES SINCE LAST RELEASE
 ==========================
 
-New upstream release.
-This project does not maintain ChangeLog.
+See version control log at
+http://anonscm.debian.org/cgit/collab-maint/devscripts.git/log/scripts/checkbashisms.pl
 
 INSTALL OR UPGRADE NOTES
 ========================
