@@ -60,6 +60,10 @@ Files included in the binary distribution:
 
 Port Notes:
 
+----- version 2.16.5-1 -----
+- New upstream release 2016-06-07 Jari Aalto
+- setup.hint: add comment ARCH=noarch
+
 ----- version 2.15.8-1 -----
 - New upstream release 2015-09-28 Jari Aalto
 
@@ -82,4 +86,4 @@ Port Notes:
 - Initial release 2012-02-04 Jari Aalto
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2012-2015 Jari Aalto; Licensed under GPL v2 or later
+Copyright (C) 2012-2016 Jari Aalto; Licensed under GPL v2 or later
