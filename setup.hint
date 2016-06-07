@@ -1,3 +1,4 @@
+# ARCH=noarch
 sdesc: "Check for bashisms in /bin/sh scripts"
 ldesc: "Perform basic checks on /bin/sh shell scripts for the possible
 presence of bashisms. It takes the names of the shell scripts on the
