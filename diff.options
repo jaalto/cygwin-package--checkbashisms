@@ -9,4 +9,5 @@
 #
 # Exclude file from patch. Use *LONG* option if there are file glob patterns
 --exclude=debian
+--exclude=debian.*
 --exclude=test
