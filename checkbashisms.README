@@ -60,6 +60,9 @@ Files included in the binary distribution:
 
 Port Notes:
 
+----- version 2.25.2-1 -----
+- New upstream release 2025-02-06 Jari Aalto
+
 ----- version 2.22.2-1 -----
 - New upstream release 2022-06-24 Jari Aalto
 
@@ -98,4 +101,4 @@ Port Notes:
 - Initial release 2012-02-04 Jari Aalto
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2012-2022 Jari Aalto; Licensed under GPL v2 or later
+Copyright (C) 2012-2025 Jari Aalto; Licensed under GPL v2 or later
