@@ -18,7 +18,7 @@ Build requirements:
   quilt
 
 Canonical homepage:
-  http://packages.debian.org/devscripts
+  https://packages.debian.org/devscripts
 
 Canonical download:
   See above
@@ -37,7 +37,7 @@ Upstream contact:
   Bugs: http://bugs.debian.org/devscripts
 
 License:
-  GPL
+  GPL-2.0-or-later
 
 Language:
   Perl
